@@ -13,7 +13,7 @@ with tf.name_scope("Output"): # 输出的命名空间
     y = W * x + b # 输出
 
 # 定义保存日志的路径
-path = "./log"
+path = "./log3"
 
 # 创建用于初始化所有变量（Variable）的操作  定义变量需要初始化
 init = tf.global_variables_initializer()
